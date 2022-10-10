@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.6.5",
@@ -8,8 +9,6 @@
   "name": "frontend-api",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
-  "type": "module",
   "scripts": {
     "start": "nodemon index.js"
   },
