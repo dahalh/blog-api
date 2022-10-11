@@ -7,8 +7,8 @@ const userRoute = require("./routes/users");
 const postRoute = require("./routes/posts");
 const categoryRoute = require("./routes/categories");
 const multer = require("multer");
-const path = require("path");
 const cors = require("cors");
+const path = require("path");
 
 dotenv.config();
 app.use(cors());
